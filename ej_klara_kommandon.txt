@@ -35,7 +35,6 @@ ER	Ger felkod för senast inträffade fel.
 ERR$	ERR$ är ren funktion som ger det felmeddelande vars kod man skickar in som argument. Tillsammans med ER ger ERR$ en beskrivning av det senast inträffade felet.
 EXIT	Används mellan DO och LOOP. Kommandot lämnar en pågående iteration som öppnats med DO och fortsätter exekveringen efter LOOP.
 FAST	FAST saknades av någon anledning i Commodore BASIC 2.0 second release trots att det var ett känt inslag för 1980-talets BASIC-programmerare, inte minst på Sinclair. FAST stänger av bilduppdateringen och sätter processorn i 2MHz-läge, så att BASIC-programmet exekverar snabbare, till priset av att skärmen är helt blank till dess at kommandot SLOW användes.
-FETCH	För expanderade maskiner: Flyttar innehåll från utökat RAM till datorns RAM.
 FILTER	Konfigurerar ljudchipets (SID) filterparametrar. Filter tar parametrar som styr frekvens, filtertyp och resonans.
 GETKEY	Tar en lista med variabler som argument, och sparar en tangenttryckning i varje variabel.
 GO64	Kommandot växlar till Commodore 64-läge, så att mjukvara för Commodore 64 kan köras. Se avsnitt nedan.
