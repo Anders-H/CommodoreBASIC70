@@ -28,7 +28,6 @@ DS	Presenterar det senaste DOS-felets nummer.
 DS$	Presenterar en beskrivande text om det senaste DOS-felet.
 DSAVE	Sparar ett BASIC-program till angiven enhet.
 DVERIFY	Jämför BASIC-programmet i minnet med ett BASIC-program i en fil, för att säkerställa att programmet är korrekt lagrat.
-EL	Ger radnummer för senast inträffade fel.
 ELSE	ELSE används tillsammans med IF om man vill utföra ett kommando om villkoret efter IF är falskt.
 ENVELOPE	Definierar karaktären för ett musikinstruments volym.
 ER	Ger felkod för senast inträffade fel.
