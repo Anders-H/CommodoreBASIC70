@@ -28,17 +28,14 @@ DS	Presenterar det senaste DOS-felets nummer.
 DS$	Presenterar en beskrivande text om det senaste DOS-felet.
 DSAVE	Sparar ett BASIC-program till angiven enhet.
 DVERIFY	Jämför BASIC-programmet i minnet med ett BASIC-program i en fil, för att säkerställa att programmet är korrekt lagrat.
-ELSE	ELSE används tillsammans med IF om man vill utföra ett kommando om villkoret efter IF är falskt.
 ENVELOPE	Definierar karaktären för ett musikinstruments volym.
 ER	Ger felkod för senast inträffade fel.
 ERR$	ERR$ är ren funktion som ger det felmeddelande vars kod man skickar in som argument. Tillsammans med ER ger ERR$ en beskrivning av det senast inträffade felet.
 EXIT	Används mellan DO och LOOP. Kommandot lämnar en pågående iteration som öppnats med DO och fortsätter exekveringen efter LOOP.
-FAST	FAST saknades av någon anledning i Commodore BASIC 2.0 second release trots att det var ett känt inslag för 1980-talets BASIC-programmerare, inte minst på Sinclair. FAST stänger av bilduppdateringen och sätter processorn i 2MHz-läge, så att BASIC-programmet exekverar snabbare, till priset av att skärmen är helt blank till dess at kommandot SLOW användes.
 FILTER	Konfigurerar ljudchipets (SID) filterparametrar. Filter tar parametrar som styr frekvens, filtertyp och resonans.
 GETKEY	Tar en lista med variabler som argument, och sparar en tangenttryckning i varje variabel.
 GO64	Kommandot växlar till Commodore 64-läge, så att mjukvara för Commodore 64 kan köras. Se avsnitt nedan.
 GRAPHIC	Väljer grafikläge (textläge, bitmapsläge, med flera).
-
 GSHAPE	Hämtar grafikdata från en strängvariabel (som sparats med SSHAPE) och ritar ut den på skärmen.
 HEADER	Formaterar en floppydisk.
 HELP	Om ett program bryts på grund av programkörningsfel, visar HELP den felaktiga raden.
@@ -61,7 +58,6 @@ RCLR	Läser av aktuell färgpalett för olika grafiklägen.
 RDOT	Läser grafikmarkörens position och underliggande färg.
 RECORD	Placerar filpekaren när du arbetar med en öppen sekventiell fil.
 RENAME	Ändrar namnet på en fil på disk.
-RENUMBER	Används i direktläge för att numrera om programsatserna på önskat vis.
 RESUME	Används för felhantering i runtime-läge. Kommandot hoppar till en önskad rad efter att ett fångat fel (TRAP) är hanterat.
 RGR	Håller aktuellt skärmläge (0-5).
 RREG	Läser innehållet i processorns ackumulator, statusflaggor och register.
@@ -73,15 +69,12 @@ SCALE	Slår på och/eller ställer in grafikskalning, eller stänger av grafiksk
 SCNCLR	Rensar skärmen från text (eller grafik, om så önskas).
 SCRATCH	Raderar en fil från en diskett.
 SLEEP	Pausar BASIC-programmet i ett önskat antal sekunder.
-SLOW	SLOW återaktiverar bilduppdateringen och sätter tillbaka processorns hastighet till 1MHz efter att kommandot FAST har använts.
 SOUND	Spelar en ljudeffekt.
 SPRCOLOR	Anger vilken färg/vilka färger en sprite ska visas med.
 SPRDEF	Startar Commodore 128:s inbyggda sprite-editor.
 SPRITE	Slår på och eller konfigurerar en sprite, eller slår av en sprite.
 SPRSAV	Kopierar pixeldata i en strängvariabel till en av åtta tillgängliga sprites.
 SSHAPE	Sparar pixeldata i en strängvariabel, som sedan kan ritas ut med GSHAPE.
-STASH	För expanderade maskiner: Flyttar innehåll från datorns RAM till utökat RAM.
-SWAP	För expanderade maskiner: Ersätter innehåll i datorns RAM med innehållet i inkopplat utökat RAM.
 TEMPO	Anger hur snabbt musik spelas av PLAY-kommandot. 0 är långsammast och 255 är snabbast.
 TRAP	TRAP, TRON och TROFF är kommandon för felsökning (debugging). Kommandot TRAP hoppar till ett angivet radnummer i händelse av att ett fel uppstår.
 TROFF	TROFF inaktiverar TRON.
@@ -90,10 +83,3 @@ VOL	Anger ljudstyrkan för nästa ljud som spelas. VOL påverkar SOUND och PLAY.
 WHILE	En iteration som exekverar så länge ett binärt uttryck utvärderas som sant. WHILE avslutas med WEND.
 WIDTH	Anger horisontell bredd på vektorgrafik (som till exempel LINE eller CIRCLE). Kan vara 1 (enkel bredd) eller 2 (dubbel bredd).
 XOR	En logisk binär operator som ger sant som svar om operanderna är olika. Falskt xor falskt är falskt, sant xor sant är falskt, sant xor falskt är sant och falskt xor sant är sant.
-
--------------------------------
-
-Klara:
-
-AUTO
-BANK
