@@ -34,7 +34,6 @@ ERR$	ERR$ är ren funktion som ger det felmeddelande vars kod man skickar in som
 EXIT	Används mellan DO och LOOP. Kommandot lämnar en pågående iteration som öppnats med DO och fortsätter exekveringen efter LOOP.
 FILTER	Konfigurerar ljudchipets (SID) filterparametrar. Filter tar parametrar som styr frekvens, filtertyp och resonans.
 GETKEY	Tar en lista med variabler som argument, och sparar en tangenttryckning i varje variabel.
-GO64	Kommandot växlar till Commodore 64-läge, så att mjukvara för Commodore 64 kan köras. Se avsnitt nedan.
 GRAPHIC	Väljer grafikläge (textläge, bitmapsläge, med flera).
 GSHAPE	Hämtar grafikdata från en strängvariabel (som sparats med SSHAPE) och ritar ut den på skärmen.
 HEADER	Formaterar en floppydisk.
