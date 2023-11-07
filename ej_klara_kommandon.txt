@@ -49,7 +49,6 @@ MOVSPR	Positionerar eller flyttar en sprite på skärmen.
 PAINT	Fyller en area, avgränsad av pixlar, med en färg.
 PEN	Ger X- och Y-positionen för ljuspennan (som är ett pekdon för CRT-skärmar).
 PLAY	Spelar upp musik som beskrivs av en textsträng.
-POINTER	Ger minnesadressen för en angiven variabel.
 POT	Läser av paddelns position. (En paddel är en ratt som används för analog styrning i två riktningar, till skillnad från en styrspak som används för digital styrning i fyra riktningar.)
 PRINT USING	Skriver ut formaterad text.
 PUDEF	Anger val av symboler och skiljetecken för PRINT USING.
