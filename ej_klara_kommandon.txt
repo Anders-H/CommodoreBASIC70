@@ -36,7 +36,6 @@ FILTER	Konfigurerar ljudchipets (SID) filterparametrar. Filter tar parametrar so
 GETKEY	Tar en lista med variabler som argument, och sparar en tangenttryckning i varje variabel.
 GRAPHIC	Väljer grafikläge (textläge, bitmapsläge, med flera).
 GSHAPE	Hämtar grafikdata från en strängvariabel (som sparats med SSHAPE) och ritar ut den på skärmen.
-HEADER	Formaterar en floppydisk.
 HELP	Om ett program bryts på grund av programkörningsfel, visar HELP den felaktiga raden.
 HEX$	Tar ett heltal och ger en sträng innehållande ett hexadecimalt tal av motsvarande värde. HEX$(10) ger A. Den funktion som konverterar tillbaka till decimal heter DEC.
 INSTR	Ger en strängs position i en annan sträng.
