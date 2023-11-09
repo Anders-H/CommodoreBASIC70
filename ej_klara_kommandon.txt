@@ -65,8 +65,6 @@ RWINDOW	Ger information om aktuellt textfönster.
 SCALE	Slår på och/eller ställer in grafikskalning, eller stänger av grafikskalning.
 SCNCLR	Rensar skärmen från text (eller grafik, om så önskas).
 SCRATCH	Raderar en fil från en diskett.
-SLEEP	Pausar BASIC-programmet i ett önskat antal sekunder.
-SOUND	Spelar en ljudeffekt.
 SPRCOLOR	Anger vilken färg/vilka färger en sprite ska visas med.
 SPRDEF	Startar Commodore 128:s inbyggda sprite-editor.
 SPRITE	Slår på och eller konfigurerar en sprite, eller slår av en sprite.
