@@ -17,7 +17,6 @@ CONCAT	Slår samman två datafiler.
 COPY	Kommandot COPY används på system med två diskettstationer för att kopiera en fil från den ena disketten till den andra.
 DCLEAR	Rensar alla öppna filer på angiven drive. Man kan även specificera enhetsnummer.
 DCLOSE	DCLOSE stänger en fil som varit öppen för läsning eller skrivning.
-DEC	Tar en sträng innehållande ett hexadecimalt tal och ger ett decimalt heltal av motsvarande värde. DEC("A") ger 10. Den funktion som konverterar tillbaka till hexadecimal heter HEX$.
 DELETE	Kommandot raderar en eller flera rader av BASIC-kod från minnet. Man kan ange ett specifikt radnummer eller ett omfång.
 DIRECTORY	Listar innehållet på en diskdrive utan att tömma BASIC-minnet. Är synonymt med CATALOG.
 DLOAD	Hämtar ett namngivet BASIC-program från disk, med möjlighet att specificera enhetsnummer och disknummer (i händelse av att enheten är dubbelsidig, som till exempel Commodore 1571). Motsvarar LOAD "filnamn",8,0 på VIC-20/C64.
@@ -78,3 +77,25 @@ VOL	Anger ljudstyrkan för nästa ljud som spelas. VOL påverkar SOUND och PLAY.
 WHILE	En iteration som exekverar så länge ett binärt uttryck utvärderas som sant. WHILE avslutas med WEND.
 WIDTH	Anger horisontell bredd på vektorgrafik (som till exempel LINE eller CIRCLE). Kan vara 1 (enkel bredd) eller 2 (dubbel bredd).
 XOR	En logisk binär operator som ger sant som svar om operanderna är olika. Falskt xor falskt är falskt, sant xor sant är falskt, sant xor falskt är sant och falskt xor sant är sant.
+
+KAPITEL
+=======
+
+Klar: Introduktion
+Klar: Om Commodore 128
+Påbörjad: Allmänna förbättringar i BASIC
+Ej påbörjad: Text
+Ej påbörjad: Grafik
+Ej påbörjad:Sprites
+Påbörjad: Ljud
+Ej påbörjad: Musik
+Ej påbörjad: Avancerade ljudeffekter
+Ej påbörjad: Användarinteraktion
+Ej påbörjad: 80-kolumnsläge
+Påbörjad: Commodore BASIC 7.0 DOS
+Ej påbörjad: Commodore 64-läge
+Ej påbörjad: CP/M
+Påbörjad: Appendix A: Felsökning
+Klar: Appendix B: Ordförklaringar
+Klar: Appendix C: Jämförelse
+Ej påbörjad: Appendix D: Maskinkod
