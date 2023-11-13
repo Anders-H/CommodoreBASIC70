@@ -73,7 +73,6 @@ TEMPO	Anger hur snabbt musik spelas av PLAY-kommandot. 0 är långsammast och 25
 TRAP	TRAP, TRON och TROFF är kommandon för felsökning (debugging). Kommandot TRAP hoppar till ett angivet radnummer i händelse av att ett fel uppstår.
 TROFF	TROFF inaktiverar TRON.
 TRON	TRON aktiverar felsökningsläge, vilket innebär att Commodore 128 för varje rad som exekveras, skriver ut radnumret för raden i fråga. Felsökningsläget inaktiveras med TROFF.
-VOL	Anger ljudstyrkan för nästa ljud som spelas. VOL påverkar SOUND och PLAY.
 WHILE	En iteration som exekverar så länge ett binärt uttryck utvärderas som sant. WHILE avslutas med WEND.
 WIDTH	Anger horisontell bredd på vektorgrafik (som till exempel LINE eller CIRCLE). Kan vara 1 (enkel bredd) eller 2 (dubbel bredd).
 XOR	En logisk binär operator som ger sant som svar om operanderna är olika. Falskt xor falskt är falskt, sant xor sant är falskt, sant xor falskt är sant och falskt xor sant är sant.
