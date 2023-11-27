@@ -83,7 +83,7 @@ Påbörjad: Allmänna förbättringar i BASIC
 Ej påbörjad: Text
 Ej påbörjad: Grafik
 Ej påbörjad:Sprites
-Påbörjad: Ljud
+Klar: Ljud
 Ej påbörjad: Musik
 Ej påbörjad: Avancerade ljudeffekter
 Ej påbörjad: Användarinteraktion
