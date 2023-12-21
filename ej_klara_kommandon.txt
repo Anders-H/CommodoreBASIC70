@@ -26,7 +26,6 @@ DS$	Presenterar en beskrivande text om det senaste DOS-felet.
 DSAVE	Sparar ett BASIC-program till angiven enhet.
 DVERIFY	Jämför BASIC-programmet i minnet med ett BASIC-program i en fil, för att säkerställa att programmet är korrekt lagrat.
 ENVELOPE	Definierar karaktären för ett musikinstruments volym.
-ER	Ger felkod för senast inträffade fel.
 ERR$	ERR$ är ren funktion som ger det felmeddelande vars kod man skickar in som argument. Tillsammans med ER ger ERR$ en beskrivning av det senast inträffade felet.
 EXIT	Används mellan DO och LOOP. Kommandot lämnar en pågående iteration som öppnats med DO och fortsätter exekveringen efter LOOP.
 FILTER	Konfigurerar ljudchipets (SID) filterparametrar. Filter tar parametrar som styr frekvens, filtertyp och resonans.
