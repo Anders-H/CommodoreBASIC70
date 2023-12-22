@@ -1,7 +1,5 @@
 APPEND	Kompletterar innehållet i en fil.
 BACKUP	Kopierar en disk.
-BEGIN	BEGIN används tillsammans med BEND för att gruppera programsatser som ska köras efter en IF-sats.
-BEND	BEND stänger ett block som öppnats med BEGIN.
 BLOAD	Läser in en binär fil till en angiven plats i minnet. Används till exempel för att läsa in maskinkodsprogram eller media.
 BOOT	Laddar in ett program flaggat som "bootbart" från disk. Om en diskdrive är inkopplad försöker Commodore 128 att "boota" vid uppstart.
 BOX	Ritar en rektangel på skärmen.
@@ -94,3 +92,142 @@ Påbörjad: Appendix A: Felsökning
 Klar: Appendix B: Ordförklaringar
 Klar: Appendix C: Jämförelse
 Ej påbörjad: Appendix D: Maskinkod
+
+==================================================
+
+Deactivate RUN/STOP + RESTORE:
+POKE808,PEEK(808)-3
+
+Enable RUN/STOP + RESTORE
+POKE 808,110
+
+Direct jump to C64 mode (without "ARE YOU SURE?"):
+SYS65357 or SYS57931
+
+Display mode:
+
+PRINT RGR(0) - values equivalent command GRAPHIC
+PEEK(215) - 0 = 40 column mode / 128 = 80 column mode
+
+Is disk write-protected?
+
+10 OPEN15,8,15:PRINT#1,"M-R";CHR$(30);CHR$(0):GET#1,A$:CLOSE1
+20 IF ASC(A$+CHR$(1))=1 THEN PRINT"DISK IS WRITE PROTECTED"
+
+LOAD/SAVE function keys definitions:
+
+BSAVE "name",D0,U8,B0,P4096 TO P4352
+BLOAD "name",D0,U8
+
+Give F1-F8 same function as in C64 mode:
+POKE 828,183
+
+Clear function keys definitions:
+POKE 4096,0
+
+Is printer turned ON?
+
+10 OPEN 4,4:CLOSE 4
+20 IF ST <> 0 THEN PRINT "TURN ON PRINTER!": goto 40
+30 PRINT "PRINTER IS ONLINE.":GOTO 80
+40 PRINT "RUN AGAIN ?"
+50 GET A$: IF A$="" THEN 50
+60 IF A$="N" THEN END
+70 GOTO 10
+80 REM **** CONTINUE ****
+
+USING WINDOWS:
+
+Creating and cancel WINDOW:
+ESC,T - Top left corner
+ESC,B - Bottom right corner
+2× CLR/HOME - cancel window
+
+IN/OUT of WINDOW:
+110 WINDOW 0,19,39,20
+120 PRINT"IN WINDOW" : GETKEYA$
+130 POKE 235,1: PRINT
+140 PRINT"OUT OF WINDOW": GETKEY A$
+150 POKE 235,10: PRINT
+160 PRINT"INSIDE AGAIN"
+
+WINDOW PEEK:
+228 bottom row
+229 top row
+230 left column
+231 right column
+
+235 cursor row
+236 cursor column
+237 max screen rows
+238 max screen columns
+
+Simple using BEEP:
+CTRL+G or CHR$(7)
+
+CHR$(131)
+- RUNs program, but don't works typing PRINTCHR$(131), but in keyboard buffer as one character instead of characters R,U,N,[CR]
+
+Writting on selected position (alternative of BASIC command CHAR):
+SYS 65520, 0, row, column: PRINT "TEXT"
+
+
+Some PEEKs&POKEs
+
+Clear keyboard buffer:
+POKE 208,0
+
+Loading and Saving:
+
+DISABLE LOAD POKE 816,0
+ENABLE LOAD POKE 816,108
+DISABLE SAVE POKE 818,1
+ENABLE SAVE POKE 818,78
+
+CHANGE PRINT COLOR POKE 241,(0-15)
+
+Switching UPPER CASE and LOWER CASE 40/80 (in 80 column mode are used both character sets):
+
+USE LOWER CASE WITH CHAR POKE 4588,216
+USE UPPER CASE WITH CHAR POKE 4588,208
+SWITCH TO LOWER CASE CHR$(14)
+SWITCH TO UPPER CASE CHR$(142)
+
+2 MHz or 1 MHz?
+
+PEEK(53296)
+252 (SLOW - 1MHz)
+253 (FAST - 2MHz)
+2Mhz (works in both 64 and 128 mode) POKE 53296,1
+1Mhz (works in both 64 and 128 mode) POKE 53296,0
+
+Detect which computer program is on:
+
+PEEK(65534)...
+72= C64 (also C128 in C64 mode)
+23= C128
+255= C Plus/4, C16
+114= VIC20
+
+Reset computer:
+SYS 65341
+
+Clear 40 screen:
+SYS 27440
+
+Listing of program:
+
+POKE 24,37 - disable line numbers
+POKE 24,27 - enable line numbers
+
+Reset the computer then typing list:
+POKE 774,61:POKE 775,255
+
+Disable list - only empty lines:
+POKE 774,139:POKE 24,37
+
+Disable list - only line numbers:
+POKE 774,139
+
+Enable list:
+POKE 774,81
