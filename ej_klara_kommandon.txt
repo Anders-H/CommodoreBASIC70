@@ -79,7 +79,7 @@ Klar: Om Commodore 128
 Påbörjad: Allmänna förbättringar i BASIC
 Ej påbörjad: Text
 Ej påbörjad: Grafik
-Ej påbörjad:Sprites
+Ej påbörjad: Sprites
 Klar: Ljud
 Ej påbörjad: Musik
 Ej påbörjad: Avancerade ljudeffekter
