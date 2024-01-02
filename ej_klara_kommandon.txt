@@ -101,9 +101,6 @@ POKE808,PEEK(808)-3
 Enable RUN/STOP + RESTORE
 POKE 808,110
 
-Direct jump to C64 mode (without "ARE YOU SURE?"):
-SYS65357 or SYS57931
-
 Display mode:
 
 PRINT RGR(0) - values equivalent command GRAPHIC
@@ -192,14 +189,6 @@ USE LOWER CASE WITH CHAR POKE 4588,216
 USE UPPER CASE WITH CHAR POKE 4588,208
 SWITCH TO LOWER CASE CHR$(14)
 SWITCH TO UPPER CASE CHR$(142)
-
-2 MHz or 1 MHz?
-
-PEEK(53296)
-252 (SLOW - 1MHz)
-253 (FAST - 2MHz)
-2Mhz (works in both 64 and 128 mode) POKE 53296,1
-1Mhz (works in both 64 and 128 mode) POKE 53296,0
 
 Detect which computer program is on:
 
