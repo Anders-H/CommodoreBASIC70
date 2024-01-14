@@ -1,9 +1,7 @@
 APPEND	Kompletterar innehållet i en fil.
 BACKUP	Kopierar en disk.
-BLOAD	Läser in en binär fil till en angiven plats i minnet. Används till exempel för att läsa in maskinkodsprogram eller media.
 BOOT	Laddar in ett program flaggat som "bootbart" från disk. Om en diskdrive är inkopplad försöker Commodore 128 att "boota" vid uppstart.
 BOX	Ritar en rektangel på skärmen.
-BSAVE	Sparar innehållet i angivna adresser i RAM till disk. Används till exempel för att spara maskinkodsprogram eller media.
 BUMP	Testar om två sprites har kolliderat med varandra.
 CHAR	Ritar ett tecken på skärmen
 CIRCLE	Ritar en cirkel på skärmen.
