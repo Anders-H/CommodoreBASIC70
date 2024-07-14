@@ -82,7 +82,7 @@ Ej påbörjad: Användarinteraktion
 Ej påbörjad: 80-kolumnsläge
 Påbörjad: Commodore BASIC 7.0 DOS
 Ej påbörjad: Commodore 64-läge
-Påbörjad: CP/M
+Klar: CP/M
 Påbörjad: Appendix A: Felsökning
 Klar: Appendix B: Ordförklaringar
 Klar: Appendix C: Jämförelse
