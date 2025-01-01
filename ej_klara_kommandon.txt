@@ -13,7 +13,6 @@ COPY	Kommandot COPY används på system med två diskettstationer för att kopie
 DCLEAR	Rensar alla öppna filer på angiven drive. Man kan även specificera enhetsnummer.
 DCLOSE	DCLOSE stänger en fil som varit öppen för läsning eller skrivning.
 DELETE	Kommandot raderar en eller flera rader av BASIC-kod från minnet. Man kan ange ett specifikt radnummer eller ett omfång.
-DO	Startar antingen en evighetsiteration, en 0-till-flera-iteration eller en 1-till-flera-iteration, som stängs med LOOP. Tillsammans med WHILE eller UNTIL är iterationen av 0-till-flera-typ, och ensamt är den antingen en evighetsiteration eller en 1-till-flera-iteration, beroende på vad som följer efter LOOP, om något.
 DOPEN	Öppnar en logisk fil av valfri typ (sekventiell, program, o.s.v.) för läsning och/eller skrivning.
 DRAW	Ritar en pixel, en linje eller en polygon med valfri färg ur färgpaletten.
 DS	Presenterar det senaste DOS-felets nummer.
@@ -21,7 +20,6 @@ DS$	Presenterar en beskrivande text om det senaste DOS-felet.
 DVERIFY	Jämför BASIC-programmet i minnet med ett BASIC-program i en fil, för att säkerställa att programmet är korrekt lagrat.
 ENVELOPE	Definierar karaktären för ett musikinstruments volym.
 ERR$	ERR$ är ren funktion som ger det felmeddelande vars kod man skickar in som argument. Tillsammans med ER ger ERR$ en beskrivning av det senast inträffade felet.
-EXIT	Används mellan DO och LOOP. Kommandot lämnar en pågående iteration som öppnats med DO och fortsätter exekveringen efter LOOP.
 FILTER	Konfigurerar ljudchipets (SID) filterparametrar. Filter tar parametrar som styr frekvens, filtertyp och resonans.
 GETKEY	Tar en lista med variabler som argument, och sparar en tangenttryckning i varje variabel.
 GRAPHIC	Väljer grafikläge (textläge, bitmapsläge, med flera).
@@ -32,7 +30,6 @@ INSTR	Ger en strängs position i en annan sträng.
 JOY	Ger aktuell riktning för valfri joystick.
 KEY	Visar eller kopplar kommandon till funktionstangenterna (F1 till F8).
 LOCATE	Placerar pixelmarkören på angiven plats, som kan användas för en ritoperation (till exempel DRAW).
-LOOP	Stänger antingen en evighetsiteration, en 0-till-flera-iteration eller en 1-till-flera-iteration, som öppnats med DO. Tillsammans med WHILE eller UNTIL är iterationen av 1-till-flera-typ, och ensamt är den antingen en evighetsiteration eller en 0-till-flera-iteration, beroende på vad som följer efter DO, om något.
 MONITOR	Startar den inbyggda maskinkodsmonitorn.
 MOVSPR	Positionerar eller flyttar en sprite på skärmen.
 PAINT	Fyller en area, avgränsad av pixlar, med en färg.
@@ -63,7 +60,6 @@ TEMPO	Anger hur snabbt musik spelas av PLAY-kommandot. 0 är långsammast och 25
 TRAP	TRAP, TRON och TROFF är kommandon för felsökning (debugging). Kommandot TRAP hoppar till ett angivet radnummer i händelse av att ett fel uppstår.
 TROFF	TROFF inaktiverar TRON.
 TRON	TRON aktiverar felsökningsläge, vilket innebär att Commodore 128 för varje rad som exekveras, skriver ut radnumret för raden i fråga. Felsökningsläget inaktiveras med TROFF.
-WHILE	En iteration som exekverar så länge ett binärt uttryck utvärderas som sant. WHILE avslutas med WEND.
 WIDTH	Anger horisontell bredd på vektorgrafik (som till exempel LINE eller CIRCLE). Kan vara 1 (enkel bredd) eller 2 (dubbel bredd).
 
 KAPITEL
@@ -71,7 +67,7 @@ KAPITEL
 
 Klar: Introduktion
 Klar: Om Commodore 128
-Påbörjad: Allmänna förbättringar i BASIC
+Klar: Allmänna förbättringar i BASIC
 Ej påbörjad: Text
 Ej påbörjad: Grafik
 Ej påbörjad: Sprites
