@@ -15,11 +15,8 @@ DCLOSE	DCLOSE stänger en fil som varit öppen för läsning eller skrivning.
 DELETE	Kommandot raderar en eller flera rader av BASIC-kod från minnet. Man kan ange ett specifikt radnummer eller ett omfång.
 DOPEN	Öppnar en logisk fil av valfri typ (sekventiell, program, o.s.v.) för läsning och/eller skrivning.
 DRAW	Ritar en pixel, en linje eller en polygon med valfri färg ur färgpaletten.
-DS	Presenterar det senaste DOS-felets nummer.
-DS$	Presenterar en beskrivande text om det senaste DOS-felet.
 DVERIFY	Jämför BASIC-programmet i minnet med ett BASIC-program i en fil, för att säkerställa att programmet är korrekt lagrat.
 ENVELOPE	Definierar karaktären för ett musikinstruments volym.
-ERR$	ERR$ är ren funktion som ger det felmeddelande vars kod man skickar in som argument. Tillsammans med ER ger ERR$ en beskrivning av det senast inträffade felet.
 FILTER	Konfigurerar ljudchipets (SID) filterparametrar. Filter tar parametrar som styr frekvens, filtertyp och resonans.
 GETKEY	Tar en lista med variabler som argument, och sparar en tangenttryckning i varje variabel.
 GRAPHIC	Väljer grafikläge (textläge, bitmapsläge, med flera).
@@ -76,7 +73,7 @@ Ej påbörjad: Musik
 Ej påbörjad: Avancerade ljudeffekter
 Ej påbörjad: Användarinteraktion
 Ej påbörjad: 80-kolumnsläge
-Påbörjad: Commodore BASIC 7.0 DOS
+Klar: Commodore BASIC 7.0 DOS
 Ej påbörjad: Commodore 64-läge
 Klar: CP/M
 Påbörjad: Appendix A: Felsökning
@@ -150,9 +147,6 @@ WINDOW PEEK:
 237 max screen rows
 238 max screen columns
 
-Simple using BEEP:
-CTRL+G or CHR$(7)
-
 CHR$(131)
 - RUNs program, but don't works typing PRINTCHR$(131), but in keyboard buffer as one character instead of characters R,U,N,[CR]
 
@@ -188,9 +182,6 @@ PEEK(65534)...
 23= C128
 255= C Plus/4, C16
 114= VIC20
-
-Reset computer:
-SYS 65341
 
 Clear 40 screen:
 SYS 27440
