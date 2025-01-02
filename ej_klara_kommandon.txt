@@ -68,7 +68,7 @@ KAPITEL
 Klar: Introduktion
 Klar: Om Commodore 128
 Klar: Allmänna förbättringar i BASIC
-Ej påbörjad: Text
+Påbörjad: Text
 Ej påbörjad: Grafik
 Ej påbörjad: Sprites
 Klar: Ljud
