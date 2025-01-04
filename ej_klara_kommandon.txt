@@ -72,7 +72,7 @@ Klar: Ljud
 Ej påbörjad: Musik
 Ej påbörjad: Avancerade ljudeffekter
 Ej påbörjad: Användarinteraktion
-Ej påbörjad: 80-kolumnsläge
+Klar: 80-kolumnsläge
 Klar: Commodore BASIC 7.0 DOS
 Ej påbörjad: Commodore 64-läge
 Klar: CP/M
@@ -89,11 +89,6 @@ POKE808,PEEK(808)-3
 
 Enable RUN/STOP + RESTORE
 POKE 808,110
-
-Display mode:
-
-PRINT RGR(0) - values equivalent command GRAPHIC
-PEEK(215) - 0 = 40 column mode / 128 = 80 column mode
 
 Is disk write-protected?
 
