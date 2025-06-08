@@ -1,10 +1,8 @@
 APPEND	Kompletterar innehållet i en fil.
 BACKUP	Kopierar en disk.
 BOOT	Laddar in ett program flaggat som "bootbart" från disk. Om en diskdrive är inkopplad försöker Commodore 128 att "boota" vid uppstart.
-BOX	Ritar en rektangel på skärmen.
 BUMP	Testar om två sprites har kolliderat med varandra.
 CHAR	Ritar ett tecken på skärmen
-CIRCLE	Ritar en cirkel på skärmen.
 COLLECT	Frigör utrymme på en disk som korrupta filer tar upp.
 COLLISION	Identifierar sprite-kollisioner eller kollision med ljuspenna och hoppar till önskad programrad om så inträffat.
 COLOR	Väljer färg ur färgpaletten att använda som border, bakgrund, grafikfärg eller textfärg. Commodore 128 delar färgpalett med Commodore 64 och VIC-20 när Commodore 128 används i 40-kolumnsläge. I 80-kolumnsläge (som endast kan visa text) har Commodore 128 en annorlunda färgpalett. 
@@ -14,22 +12,17 @@ DCLEAR	Rensar alla öppna filer på angiven drive. Man kan även specificera enh
 DCLOSE	DCLOSE stänger en fil som varit öppen för läsning eller skrivning.
 DELETE	Kommandot raderar en eller flera rader av BASIC-kod från minnet. Man kan ange ett specifikt radnummer eller ett omfång.
 DOPEN	Öppnar en logisk fil av valfri typ (sekventiell, program, o.s.v.) för läsning och/eller skrivning.
-DRAW	Ritar en pixel, en linje eller en polygon med valfri färg ur färgpaletten.
 DVERIFY	Jämför BASIC-programmet i minnet med ett BASIC-program i en fil, för att säkerställa att programmet är korrekt lagrat.
 ENVELOPE	Definierar karaktären för ett musikinstruments volym.
 FILTER	Konfigurerar ljudchipets (SID) filterparametrar. Filter tar parametrar som styr frekvens, filtertyp och resonans.
 GETKEY	Tar en lista med variabler som argument, och sparar en tangenttryckning i varje variabel.
-GRAPHIC	Väljer grafikläge (textläge, bitmapsläge, med flera).
-GSHAPE	Hämtar grafikdata från en strängvariabel (som sparats med SSHAPE) och ritar ut den på skärmen.
 HELP	Om ett program bryts på grund av programkörningsfel, visar HELP den felaktiga raden.
 HEX$	Tar ett heltal och ger en sträng innehållande ett hexadecimalt tal av motsvarande värde. HEX$(10) ger A. Den funktion som konverterar tillbaka till decimal heter DEC.
 INSTR	Ger en strängs position i en annan sträng.
 JOY	Ger aktuell riktning för valfri joystick.
 KEY	Visar eller kopplar kommandon till funktionstangenterna (F1 till F8).
-LOCATE	Placerar pixelmarkören på angiven plats, som kan användas för en ritoperation (till exempel DRAW).
 MONITOR	Startar den inbyggda maskinkodsmonitorn.
 MOVSPR	Positionerar eller flyttar en sprite på skärmen.
-PAINT	Fyller en area, avgränsad av pixlar, med en färg.
 PEN	Ger X- och Y-positionen för ljuspennan (som är ett pekdon för CRT-skärmar).
 PLAY	Spelar upp musik som beskrivs av en textsträng.
 POT	Läser av paddelns position. (En paddel är en ratt som används för analog styrning i två riktningar, till skillnad från en styrspak som används för digital styrning i fyra riktningar.)
@@ -40,24 +33,20 @@ RDOT	Läser grafikmarkörens position och underliggande färg.
 RECORD	Placerar filpekaren när du arbetar med en öppen sekventiell fil.
 RENAME	Ändrar namnet på en fil på disk.
 RESUME	Används för felhantering i runtime-läge. Kommandot hoppar till en önskad rad efter att ett fångat fel (TRAP) är hanterat.
-RGR	Håller aktuellt skärmläge (0-5).
 RREG	Läser innehållet i processorns ackumulator, statusflaggor och register.
 RSPCOLOR	För en sprite i flerfärgsläge ger RSPCOLOR information om färg 1 eller 2.
 RSPPOS	Ger information om position och hastighet för valfri sprite.
 RSPRITE	Ger information om inställningar för valfri sprite.
 RWINDOW	Ger information om aktuellt textfönster.
-SCALE	Slår på och/eller ställer in grafikskalning, eller stänger av grafikskalning.
 SCRATCH	Raderar en fil från en diskett.
 SPRCOLOR	Anger vilken färg/vilka färger en sprite ska visas med.
 SPRDEF	Startar Commodore 128:s inbyggda sprite-editor.
 SPRITE	Slår på och eller konfigurerar en sprite, eller slår av en sprite.
 SPRSAV	Kopierar pixeldata i en strängvariabel till en av åtta tillgängliga sprites.
-SSHAPE	Sparar pixeldata i en strängvariabel, som sedan kan ritas ut med GSHAPE.
 TEMPO	Anger hur snabbt musik spelas av PLAY-kommandot. 0 är långsammast och 255 är snabbast.
 TRAP	TRAP, TRON och TROFF är kommandon för felsökning (debugging). Kommandot TRAP hoppar till ett angivet radnummer i händelse av att ett fel uppstår.
 TROFF	TROFF inaktiverar TRON.
 TRON	TRON aktiverar felsökningsläge, vilket innebär att Commodore 128 för varje rad som exekveras, skriver ut radnumret för raden i fråga. Felsökningsläget inaktiveras med TROFF.
-WIDTH	Anger horisontell bredd på vektorgrafik (som till exempel LINE eller CIRCLE). Kan vara 1 (enkel bredd) eller 2 (dubbel bredd).
 
 KAPITEL
 =======
@@ -66,7 +55,7 @@ Klar: Introduktion
 Klar: Om Commodore 128
 Klar: Allmänna förbättringar i BASIC
 Påbörjad: Text
-Ej påbörjad: Grafik
+Påbörjad: Grafik
 Ej påbörjad: Sprites
 Klar: Ljud
 Ej påbörjad: Musik
