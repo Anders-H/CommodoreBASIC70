@@ -5,7 +5,6 @@ BUMP	Testar om två sprites har kolliderat med varandra.
 CHAR	Ritar ett tecken på skärmen
 COLLECT	Frigör utrymme på en disk som korrupta filer tar upp.
 COLLISION	Identifierar sprite-kollisioner eller kollision med ljuspenna och hoppar till önskad programrad om så inträffat.
-COLOR	Väljer färg ur färgpaletten att använda som border, bakgrund, grafikfärg eller textfärg. Commodore 128 delar färgpalett med Commodore 64 och VIC-20 när Commodore 128 används i 40-kolumnsläge. I 80-kolumnsläge (som endast kan visa text) har Commodore 128 en annorlunda färgpalett. 
 CONCAT	Slår samman två datafiler.
 COPY	Kommandot COPY används på system med två diskettstationer för att kopiera en fil från den ena disketten till den andra.
 DCLEAR	Rensar alla öppna filer på angiven drive. Man kan även specificera enhetsnummer.
