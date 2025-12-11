@@ -69,6 +69,7 @@ Klar: Appendix B: Ordförklaringar
 Klar: Appendix C: Jämförelse
 Ej påbörjad: Appendix D: Maskinkod
 Påbörjad: Appendix E: Övriga funktioner
+Klar: Appendix F: Förkortningar
 
 ==================================================
 
