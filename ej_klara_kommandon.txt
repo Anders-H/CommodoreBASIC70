@@ -57,7 +57,7 @@ Påbörjad: Text
 Påbörjad: Grafik
 Ej påbörjad: Sprites
 Klar: Ljud
-Ej påbörjad: Musik
+Påbörjad: Musik
 Ej påbörjad: Avancerade ljudeffekter
 Ej påbörjad: Användarinteraktion
 Klar: 80-kolumnsläge
@@ -159,14 +159,6 @@ USE LOWER CASE WITH CHAR POKE 4588,216
 USE UPPER CASE WITH CHAR POKE 4588,208
 SWITCH TO LOWER CASE CHR$(14)
 SWITCH TO UPPER CASE CHR$(142)
-
-Detect which computer program is on:
-
-PEEK(65534)...
-72= C64 (also C128 in C64 mode)
-23= C128
-255= C Plus/4, C16
-114= VIC20
 
 Clear 40 screen:
 SYS 27440
