@@ -138,11 +138,7 @@ CHR$(131)
 Writting on selected position (alternative of BASIC command CHAR):
 SYS 65520, 0, row, column: PRINT "TEXT"
 
-
 Some PEEKs&POKEs
-
-Clear keyboard buffer:
-POKE 208,0
 
 Loading and Saving:
 
