@@ -156,9 +156,6 @@ USE UPPER CASE WITH CHAR POKE 4588,208
 SWITCH TO LOWER CASE CHR$(14)
 SWITCH TO UPPER CASE CHR$(142)
 
-Clear 40 screen:
-SYS 27440
-
 Listing of program:
 
 POKE 24,37 - disable line numbers
